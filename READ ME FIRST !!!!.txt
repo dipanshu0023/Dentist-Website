@@ -1,0 +1,56 @@
+                         : : : : : ADMIN LOGIN DETAILS : : : : : 
+
+
+Admin Login Details for admin : diph@gmail.com
+              Password :diph12
+
+
+
+DON'T FORGET TO DOWNLOAD & CREATE DATABASE
+
+
+
+*XAMPP SERVER 
+	DOWNLLOAD MYSQL & APACHE CHECKBOX (FOR MORE INFO YOU CAN GO THROUGH THE YOUTUBE VIDEOS BY SEARCHING "HOW TO DOWNLOAD XAMPP SERVER")
+
+*DATABASE
+	CREATE THE DATABASE "contact_db" . THAN CREATE THE TABLE "admin_login", "doctor_details", "payment" & "staff_details".
+
+	-TO CREATE TABLE "admin_login"
+		CREATE TABLE admin_login (id int, name varchar(255), email varchar(255), passsword varchar(255), user_type varchar(255));
+		
+		TO INSERT THE VALUES
+			INSERT INTO admin_login (id, name, email, password, user_type) VALUES (1, 'Diph', 'diph@gmail.com', 'diph12', 'admin');
+
+	-TO CREATE TABLE "doctor_details"
+		CREATE TABLE doctor_details (id int, name varchar(255), email varchar(255), passsword varchar(255), number varchar(255), timing varchar(255));
+		
+		TO INSERT THE VALUES
+			INSERT INTO doctor_details (id, name, email, password, number, timing) VALUES (1, 'Maneesh Bhat', 'maneesh1@gmail.com', 'maneeh8', '4547454745', 'Morning shift');
+			INSERT INTO doctor_details (id, name, email, password, number, timing) VALUES (2, 'Shunhi Kaushik', 'shunki2@gmail.com', 'shunki8', '5656585658', 'Evening shift');
+			INSERT INTO doctor_details (id, name, email, password, number, timing) VALUES (3, 'Deepak Jain', 'deepak2@gmail.com', 'deepak8', '8528528528', 'Morning shift');
+
+
+	-TO CREATE TABLE "payment"
+		CREATE TABLE payment (id int, name varchar(255), email varchar(255), number varchar(255), address varchar(255), city varchar(255), state varchar(255), zip_code varchar(255), card_name varchar(255), card_number varchar(255), exp_month varchar(255), exp_year varchar(255), cvv varchar(255));
+		
+
+
+	-TO CREATE TABLE "staff_details"
+		CREATE TABLE staff_details (id int, name varchar(255), email varchar(255), passsword varchar(255), number varchar(255), shift varchar(255), post varchar(255));
+		
+		TO INSERT THE VALUES
+			INSERT INTO staff_details (id, name, email, password, number, shift, post) VALUES (1, 'Sunita', 'sunita8@gmail.com', 'diph12', '8585458475', 'Morning Shift', 'Sweeper');
+			INSERT INTO staff_details (id, name, email, password, number, shift, post) VALUES (2, 'Ramesh', 'ramesh8@gmail.com', 'diph12', '4124124124', 'Evening Shift', 'Sweeper');
+			INSERT INTO staff_details (id, name, email, password, number, shift, post) VALUES (3, 'Nisha', 'nisha9@gmail.com', 'diph12', '4564564564', 'Morning Shift', 'Receptionist');
+			INSERT INTO staff_details (id, name, email, password, number, shift, post) VALUES (4, 'Disha', 'disha9@gmail.com', 'diph12', '2563256325', 'Evening Shift', 'Receptionist');
+			INSERT INTO staff_details (id, name, email, password, number, shift, post) VALUES (5, 'Mohit', 'mohit0@gmail.com', 'diph12', '8528528528', 'Morning Shift', 'Helper');
+			INSERT INTO staff_details (id, name, email, password, number, shift, post) VALUES (6, 'Rohit', 'rohit0@gmail.com', 'diph12', '7417417417', 'Evening Shift', 'Helper');
+
+
+
+
+	#THANK YOU
+
+
+
